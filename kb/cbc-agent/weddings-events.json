@@ -1,0 +1,181 @@
+{
+  "weddings_and_events": {
+    "overview": "CBC offers stunning venues and comprehensive services for weddings, corporate events, and private celebrations, combining Bermuda's natural beauty with exceptional hospitality.",
+    
+    "wedding_venues": {
+      "longtail_terrace": {
+        "description": "Clifftop terrace with panoramic ocean views",
+        "capacity": "150 guests for ceremony, 120 for reception",
+        "features": [
+          "Dramatic clifftop setting",
+          "Panoramic Atlantic Ocean views", 
+          "Natural wind protection",
+          "Built-in ceremony backdrop",
+          "Multiple photo opportunities"
+        ],
+        "best_for": "Dramatic ceremonies, sunset weddings",
+        "weather_backup": "Indoor venue options available"
+      },
+      
+      "beach_terrace": {
+        "description": "Oceanfront terrace directly overlooking the beach",
+        "capacity": "100 guests for ceremony, 80 for reception",
+        "features": [
+          "Direct beach access",
+          "Ocean breeze atmosphere",
+          "Pink sand backdrop",
+          "Intimate setting",
+          "Natural beauty"
+        ],
+        "best_for": "Beach weddings, casual elegance",
+        "weather_backup": "Adjacent covered areas"
+      },
+      
+      "croquet_lawn": {
+        "description": "Manicured lawn surrounded by lush gardens",
+        "capacity": "200+ guests",
+        "features": [
+          "Expansive green space",
+          "Garden surroundings",
+          "Flexible layout options",
+          "Traditional charm",
+          "Natural amphitheater setting"
+        ],
+        "best_for": "Large ceremonies, garden parties",
+        "weather_backup": "Tent options available"
+      },
+      
+      "members_lounge": {
+        "description": "Elegant indoor space with classic Bermudian charm",
+        "capacity": "80 guests",
+        "features": [
+          "Climate controlled",
+          "Elegant décor",
+          "Traditional atmosphere",
+          "Built-in bar area",
+          "Intimate setting"
+        ],
+        "best_for": "Indoor ceremonies, cocktail receptions",
+        "weather_backup": "Primary indoor option"
+      },
+      
+      "ballroom": {
+        "description": "Formal ballroom for large indoor celebrations",
+        "capacity": "200+ guests",
+        "features": [
+          "Spacious dance floor",
+          "Professional lighting",
+          "Sound system included",
+          "Elegant architecture",
+          "Climate controlled"
+        ],
+        "best_for": "Large receptions, formal dinners",
+        "weather_backup": "Primary large indoor venue"
+      }
+    },
+    
+    "wedding_services": {
+      "planning": {
+        "wedding_coordinator": "Dedicated professional coordinator",
+        "timeline_management": "Complete event timeline coordination",
+        "vendor_coordination": "Management of all service providers",
+        "day_of_coordination": "Full day-of wedding management",
+        "rehearsal_coordination": "Practice ceremony coordination"
+      },
+      
+      "catering": {
+        "menu_styles": [
+          "Plated dinner service",
+          "Buffet reception",
+          "Cocktail reception",
+          "Beach barbecue",
+          "Brunch celebration"
+        ],
+        "dietary_accommodations": "All dietary restrictions accommodated",
+        "bar_service": "Full bar, wine pairings, signature cocktails",
+        "cake_service": "Wedding cake cutting and service",
+        "late_night_snacks": "Optional late evening food service"
+      },
+      
+      "technical_services": {
+        "audio_visual": "Sound systems, microphones, lighting",
+        "photography_support": "Assistance with photographer logistics",
+        "music_coordination": "DJ and band setup support",
+        "lighting_design": "Ambient and decorative lighting",
+        "power_access": "Electrical support for vendors"
+      },
+      
+      "floral_and_decor": {
+        "preferred_vendors": "Recommended Bermudian florists",
+        "venue_decoration": "Chairs, linens, centerpieces",
+        "ceremony_setup": "Arch, aisle, altar arrangements",
+        "reception_design": "Table settings, ambient décor",
+        "cleanup_service": "Post-event decoration removal"
+      }
+    },
+    
+    "corporate_events": {
+      "meeting_spaces": [
+        "Snug Room - intimate meetings up to 12",
+        "Members' Lounge - presentations up to 50", 
+        "Ballroom - conferences up to 200",
+        "Outdoor terraces - team building events"
+      ],
+      "services": [
+        "AV equipment and technical support",
+        "Catering from breakfast to formal dinners",
+        "Team building activity coordination",
+        "Transportation arrangement assistance",
+        "Accommodation packages for attendees"
+      ],
+      "popular_formats": [
+        "Executive retreats",
+        "Product launches",
+        "Awards ceremonies",
+        "Client entertainment",
+        "Board meetings"
+      ]
+    },
+    
+    "private_celebrations": {
+      "event_types": [
+        "Milestone birthdays",
+        "Anniversary celebrations", 
+        "Family reunions",
+        "Holiday parties",
+        "Charity fundraisers",
+        "Memorial services"
+      ],
+      "customization": "Fully customizable menus, décor, and activities",
+      "capacity_range": "Intimate gatherings of 10 to large parties of 200+",
+      "special_touches": "Personalized service, custom menus, themed décor"
+    },
+    
+    "booking_and_planning": {
+      "advance_booking": "12-18 months recommended for weddings",
+      "site_visits": "Venue tours available by appointment",
+      "planning_timeline": "6-12 months typical planning period",
+      "contracts": "Detailed agreements with all terms specified",
+      "deposits": "Required to secure date and services",
+      "final_details": "Confirmed 2 weeks prior to event"
+    },
+    
+    "policies": {
+      "guest_access": "All guests welcome with event booking",
+      "outside_vendors": "Approved vendor list available",
+      "decorations": "Guidelines provided for each venue",
+      "music_limits": "Volume restrictions for outdoor events",
+      "cleanup": "Professional cleanup included in service",
+      "insurance": "Event insurance may be required"
+    },
+    
+    "seasonal_considerations": {
+      "peak_season": "April through October - book early",
+      "weather_planning": "Backup plans for all outdoor events",
+      "holiday_weekends": "Premium pricing and early booking required",
+      "winter_events": "Indoor venue focus, cozy atmosphere",
+      "spring_weddings": "Beautiful gardens, mild weather",
+      "summer_events": "Extended daylight, beach activities"
+    }
+  }
+}

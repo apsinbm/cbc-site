@@ -1,0 +1,53 @@
+{
+  "social_media": {
+    "overview": "Coral Beach & Tennis Club maintains an active presence on social media platforms to share club news, events, beautiful scenery, and connect with members and guests.",
+    
+    "official_accounts": {
+      "facebook": {
+        "url": "https://www.facebook.com/coralbeachclubbda",
+        "handle": "@coralbeachclubbda",
+        "description": "Official Facebook page featuring club updates, event announcements, and beautiful photography of our Bermuda location."
+      },
+      "instagram": {
+        "url": "https://www.instagram.com/coralbeachbda/",
+        "handle": "@coralbeachbda",
+        "description": "Visual showcase of club life, stunning beach views, dining experiences, and member activities through beautiful photography."
+      },
+      "x_twitter": {
+        "url": "https://x.com/coralbeach00",
+        "handle": "@coralbeach00",
+        "description": "Real-time updates, news, and quick announcements from Coral Beach & Tennis Club."
+      }
+    },
+    
+    "content_highlights": {
+      "beach_and_scenery": "Stunning photos of our 2,000 feet of pink sand beach, ocean views, and Bermudian sunsets",
+      "dining_experiences": "Culinary showcases from our various restaurants and special dining events",
+      "events_and_activities": "Tennis tournaments, social gatherings, cultural events, and member activities",
+      "club_facilities": "Tours of our accommodations, recreational facilities, and beautiful grounds",
+      "bermuda_culture": "Celebrations of local Bermudian traditions and culture",
+      "member_stories": "Highlights of member experiences and club community"
+    },
+    
+    "engagement_guidelines": {
+      "follow_for": [
+        "Daily glimpses of life at CBC",
+        "Event announcements and updates",
+        "Beautiful Bermuda photography", 
+        "Dining and culinary highlights",
+        "Club news and announcements",
+        "Weather updates and seasonal information"
+      ],
+      "interaction": "Members and guests are encouraged to follow, like, and share CBC content to stay connected with club life"
+    },
+    
+    "chatbot_responses": {
+      "social_media_inquiry": "You can follow Coral Beach & Tennis Club on our official social media accounts: Facebook (@coralbeachclubbda), Instagram (@coralbeachbda), and X (@coralbeach00). We regularly share beautiful photos, event updates, and club news.",
+      "facebook_specific": "Visit our Facebook page at facebook.com/coralbeachclubbda for club updates, event announcements, and community news.",
+      "instagram_specific": "Follow us on Instagram @coralbeachbda for stunning photography of our beach, facilities, and dining experiences.",
+      "twitter_x_specific": "Follow us on X (Twitter) @coralbeach00 for real-time updates and quick announcements from the club."
+    },
+    
+    "privacy_note": "All social media content respects member privacy and follows club guidelines for photography and information sharing."
+  }
+}

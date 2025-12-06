@@ -11,7 +11,7 @@ interface WhatsAppButtonProps {
 }
 
 export function WhatsAppButton({ 
-  number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+14415551234', 
+  number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '+14412365535', 
   message = 'Hello! I have a question about Coral Beach & Tennis Club.',
   className = ''
 }: WhatsAppButtonProps) {

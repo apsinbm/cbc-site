@@ -70,12 +70,15 @@ Configure these variables in your `.env.local` file:
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `WHATSAPP_NUMBER` | WhatsApp business number | `+14415551234` |
+| `WHATSAPP_NUMBER` | WhatsApp business number | `+14412365535` |
 | `EMAIL_FROM` | Sender email address | `noreply@coralbeachclub.com` |
 | `EMAIL_TO` | Contact form recipient | `reservations@coralbeachclub.com` |
 | `POSTMARK_API_TOKEN` | Postmark API token | (optional) |
 | `NEXT_PUBLIC_CBC_AGENT_ENABLED` | Enable CBC Agent | `true` |
 | `NEXT_PUBLIC_CBC_AGENT_SRC` | CBC Agent script URL | (optional) |
+| `NEXT_PUBLIC_FACEBOOK_URL` | Facebook page URL | `https://www.facebook.com/coralbeachclubbda` |
+| `NEXT_PUBLIC_INSTAGRAM_URL` | Instagram profile URL | `https://www.instagram.com/coralbeachbda/` |
+| `NEXT_PUBLIC_X_URL` | X (Twitter) profile URL | `https://x.com/coralbeach00` |
 
 ## 📊 Sanity Studio
 
@@ -171,7 +174,7 @@ The CBC-Agent automatically receives page context:
 
 1. **Set your WhatsApp number**:
    ```env
-   WHATSAPP_NUMBER=+14415551234
+   WHATSAPP_NUMBER=+14412365535
    ```
 
 2. **Customize messages**: Edit the default message in `WhatsAppButton.tsx`
@@ -181,6 +184,33 @@ The CBC-Agent automatically receives page context:
 - **Smart detection**: Opens native app on mobile, web on desktop
 - **Pre-filled messages**: Context-aware default messages
 - **Floating button**: Persistent access across all pages
+
+## 📱 Social Media Integration
+
+### Official Accounts
+
+CBC maintains active social media presence on:
+
+- **Facebook**: [@coralbeachclubbda](https://www.facebook.com/coralbeachclubbda)
+- **Instagram**: [@coralbeachbda](https://www.instagram.com/coralbeachbda/)
+- **X (Twitter)**: [@coralbeach00](https://x.com/coralbeach00)
+
+### Configuration
+
+Social media links are configurable via environment variables:
+
+```env
+NEXT_PUBLIC_FACEBOOK_URL=https://www.facebook.com/coralbeachclubbda
+NEXT_PUBLIC_INSTAGRAM_URL=https://www.instagram.com/coralbeachbda/
+NEXT_PUBLIC_X_URL=https://x.com/coralbeach00
+```
+
+### Features
+
+- **Footer links**: Clickable social media icons in the website footer
+- **Accessibility**: Proper aria-labels for screen readers
+- **External links**: Open in new tabs with proper security attributes
+- **Knowledge base**: Social media information available for CBC-Agent chatbot
 
 ## 🔮 Future Northstar Integration
 
@@ -220,6 +250,9 @@ NEXT_PUBLIC_SITE_URL=https://coralbeachclub.com
 NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
 SANITY_API_TOKEN=your_production_token
 POSTMARK_API_TOKEN=your_postmark_token
+NEXT_PUBLIC_FACEBOOK_URL=https://www.facebook.com/coralbeachclubbda
+NEXT_PUBLIC_INSTAGRAM_URL=https://www.instagram.com/coralbeachbda/
+NEXT_PUBLIC_X_URL=https://x.com/coralbeach00
 ```
 
 ### Custom Domain
@@ -296,18 +329,17 @@ npm run type-check   # Run TypeScript compiler
 
 ## 🤝 Contributing
 
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Commit changes**: `git commit -m 'Add amazing feature'`
-4. **Push to branch**: `git push origin feature/amazing-feature`
-5. **Open a Pull Request**
+**RESTRICTED ACCESS** - This is proprietary software owned by Coral Beach & Tennis Club. Contributing requires explicit written authorization.
 
-### Development Guidelines
+Contact legal@coralbeachclub.com for contribution guidelines and authorization procedures.
+
+### Development Guidelines (Authorized Contributors Only)
 
 - Follow TypeScript strict mode
 - Use semantic commit messages
 - Maintain test coverage
 - Update documentation for new features
+- Respect confidentiality and intellectual property restrictions
 
 ## 🛠️ Troubleshooting
 
@@ -333,7 +365,11 @@ npm run type-check   # Run TypeScript compiler
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**PROPRIETARY SOFTWARE** - Copyright © 2025 Coral Beach & Tennis Club. All Rights Reserved.
+
+This software is proprietary and confidential. Unauthorized copying, distribution, modification, or commercial use is strictly prohibited. See the [LICENSE](LICENSE) file for complete terms and restrictions.
+
+For licensing inquiries: legal@coralbeachclub.com
 
 ## 🙏 Acknowledgments
 

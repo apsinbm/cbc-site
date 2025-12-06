@@ -1,0 +1,33 @@
+Region,Country,City,Club Name,Type,Facilities,Letter Required,Special Notes
+North America,USA,New York,Union Club,City Club,Dining | Rooms | Library | Fitness,Yes,Historic private club
+North America,USA,New York,Metropolitan Club,City Club,Dining | Rooms | Events | Business,Yes,Prestigious Fifth Avenue location
+North America,USA,Boston,Somerset Club,City Club,Dining | Rooms | History,Yes,Historic Beacon Hill location
+North America,USA,Washington DC,Metropolitan Club,City Club,Dining | Rooms | Business,Yes,Near White House
+North America,USA,Chicago,Chicago Club,City Club,Dining | Rooms | Business | Events,Yes,Downtown location
+North America,USA,San Francisco,Pacific Union Club,City Club,Dining | Rooms | Views,Yes,Nob Hill location
+North America,USA,Los Angeles,California Club,City Club,Dining | Rooms | Business,Yes,Downtown historic club
+North America,USA,Philadelphia,Philadelphia Club,City Club,Dining | Rooms | History,Yes,Founded 1834
+North America,USA,Newport,Newport Country Club,Country Club,Golf | Dining | Beach | Tennis,Yes,Exclusive Newport location
+North America,USA,Palm Beach,Everglades Club,Country Club,Golf | Dining | Beach | Tennis,Yes,Historic Palm Beach club
+North America,Canada,Toronto,Toronto Club,City Club,Dining | Rooms | Business,Yes,Financial district location
+North America,Canada,Montreal,Mount Royal Club,City Club,Dining | Rooms | History,Yes,Historic Montreal club
+North America,Canada,Vancouver,Terminal City Club,City Club,Dining | Rooms | Business | Views,Yes,Downtown Vancouver
+Caribbean,Barbados,St. Lawrence Gap,Barbados Yacht Club,Yacht Club,Marina | Dining | Water Sports,Yes,Caribbean sailing hub
+Caribbean,Jamaica,Kingston,Kingston Cricket Club,Sports Club,Cricket | Dining | History,Yes,Historic cricket club
+Caribbean,Bahamas,Nassau,Lyford Cay Club,Country Club,Golf | Beach | Marina | Dining,Yes,Exclusive Bahamas location
+Europe,England,London,White's Club,Gentlemen's Club,Dining | Rooms | History,Yes,Oldest gentlemen's club
+Europe,England,London,Brook's Club,Gentlemen's Club,Dining | Rooms | Library,Yes,Historic St. James's
+Europe,England,London,Boodle's Club,Gentlemen's Club,Dining | Rooms | History,Yes,Founded 1762
+Europe,England,London,Reform Club,Liberal Club,Dining | Rooms | Library | History,Yes,Historic political club
+Europe,Scotland,Edinburgh,New Club,Gentlemen's Club,Dining | Rooms | Views,Yes,Princes Street location
+Europe,Scotland,St. Andrews,Royal & Ancient Golf Club,Golf Club,Golf | Dining | History,Yes,Home of golf
+Europe,Ireland,Dublin,Kildare Street Club,Gentlemen's Club,Dining | Rooms | History,Yes,Historic Dublin club
+Europe,France,Paris,Cercle de l'Union Interalliée,Private Club,Dining | Rooms | Events,Yes,Elegant Parisian club
+Europe,Monaco,Monte Carlo,Monte Carlo Country Club,Country Club,Tennis | Dining | Views,Yes,Mediterranean location
+Asia,Singapore,Singapore,Singapore Cricket Club,Sports Club,Cricket | Dining | History,Yes,Colonial heritage
+Asia,Hong Kong,Hong Kong,Hong Kong Club,City Club,Dining | Rooms | Business | Harbor Views,Yes,Central Hong Kong
+Asia,Japan,Tokyo,Tokyo American Club,International Club,Dining | Rooms | Fitness | Business,Yes,International membership
+Australia,Australia,Sydney,Australian Club,Gentlemen's Club,Dining | Rooms | History,Yes,Historic Sydney club
+Australia,Australia,Melbourne,Melbourne Club,Gentlemen's Club,Dining | Rooms | Business,Yes,Financial district
+South America,Argentina,Buenos Aires,Jockey Club Buenos Aires,Social Club,Dining | Events | History,Yes,Elegant Buenos Aires
+Africa,South Africa,Cape Town,City Club of Cape Town,City Club,Dining | Rooms | Mountain Views,Yes,Table Mountain views

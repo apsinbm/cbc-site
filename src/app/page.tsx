@@ -1,4 +1,5 @@
 import { Hero } from "@/components/features/Hero";
+import { Gallery } from "@/components/features/Gallery";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
@@ -20,7 +21,7 @@ export default function Home() {
           text: "Plan Your Visit",
           href: "/stay"
         }}
-        backgroundImage="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        backgroundImage="/images/aerial-overview.jpg"
       />
 
       {/* Quick Links Section */}
@@ -36,7 +37,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-brand-coral rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-brand-pink rounded-lg flex items-center justify-center mb-4">
                   <Crown className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle>Luxury Accommodations</CardTitle>
@@ -53,7 +54,7 @@ export default function Home() {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-brand-sea rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-brand-blue rounded-lg flex items-center justify-center mb-4">
                   <Utensils className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle>Exceptional Dining</CardTitle>
@@ -70,7 +71,7 @@ export default function Home() {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-brand-coral rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-brand-green rounded-lg flex items-center justify-center mb-4">
                   <Waves className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle>Beach & Recreation</CardTitle>
@@ -87,7 +88,7 @@ export default function Home() {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-brand-sea rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-brand-pink rounded-lg flex items-center justify-center mb-4">
                   <Users className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle>Events & Weddings</CardTitle>
@@ -104,7 +105,7 @@ export default function Home() {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-brand-coral rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-brand-blue rounded-lg flex items-center justify-center mb-4">
                   <Calendar className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle>What's On</CardTitle>
@@ -121,7 +122,7 @@ export default function Home() {
 
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-12 h-12 bg-brand-sea rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-brand-green rounded-lg flex items-center justify-center mb-4">
                   <MapPin className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle>Our Location</CardTitle>
@@ -139,6 +140,61 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Gallery Section */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-4">Experience the Beauty of CBC</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              From our pristine pink sand beach to our elegant facilities, discover the stunning views and luxurious amenities that make CBC special.
+            </p>
+          </div>
+          
+          <Gallery 
+            images={[
+              {
+                src: "/images/aerial-overview.jpg",
+                alt: "Aerial view of Coral Beach & Tennis Club",
+                caption: "Stunning aerial view of our 26-acre oceanfront property"
+              },
+              {
+                src: "/images/tennis-courts.jpg", 
+                alt: "Tennis courts and facilities",
+                caption: "Professional tennis courts with ocean views"
+              },
+              {
+                src: "/images/beach-umbrellas.jpg",
+                alt: "Beach with umbrellas and pink sand",
+                caption: "Our famous pink sand beach with premium beach service"
+              },
+              {
+                src: "/images/beachfront-aerial.jpg",
+                alt: "Beachfront aerial view",
+                caption: "2,000 feet of pristine pink sand coastline"
+              },
+              {
+                src: "/images/pool-area.jpg",
+                alt: "Pool and recreational areas", 
+                caption: "Pool area and recreational facilities"
+              },
+              {
+                src: "/images/sunset-view.jpg",
+                alt: "Sunset view of the club",
+                caption: "Golden hour at Coral Beach & Tennis Club"
+              }
+            ]}
+            columns={3}
+            className="mb-8"
+          />
+          
+          <div className="text-center">
+            <Button asChild variant="outline" size="lg">
+              <Link href="/about/gallery">View Full Gallery</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="py-16">
         <div className="container mx-auto px-4 text-center">
@@ -149,7 +205,7 @@ export default function Home() {
             Join our exclusive community and discover the ultimate in luxury, recreation, and hospitality.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-brand-coral hover:bg-brand-coral/90" asChild>
+            <Button size="lg" className="bg-brand-blue-dark hover:bg-brand-blue-dark/90" asChild>
               <Link href="/membership">Become a Member</Link>
             </Button>
             <Button size="lg" variant="outline" asChild>

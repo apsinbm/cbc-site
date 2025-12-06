@@ -1,0 +1,105 @@
+{
+  "accommodations": {
+    "overview": "CBC offers luxury accommodations ranging from intimate guest rooms to spacious multi-bedroom cottages, all featuring Bermudian décor and stunning views.",
+    "categories": {
+      "cottages": {
+        "description": "Multi-bedroom cottages with private kitchens, terraces, and panoramic ocean views. Ideal for families or groups.",
+        "features": [
+          "2-4 bedrooms",
+          "Multiple bathrooms", 
+          "Full kitchens with modern appliances",
+          "Private terraces with outdoor dining",
+          "Panoramic ocean views",
+          "Spacious living areas",
+          "Bermudian architectural details"
+        ],
+        "ideal_for": "Families, groups, extended stays",
+        "capacity": "4-8 guests depending on cottage"
+      },
+      "suites": {
+        "description": "Spacious suites with ocean or garden views, featuring separate sitting areas and elegant Bermudian furnishings.",
+        "features": [
+          "Ocean-view or garden-view options",
+          "Private balconies or terraces", 
+          "Separate sitting areas",
+          "Elegant Bermudian décor",
+          "Premium furnishings",
+          "Enhanced amenities"
+        ],
+        "ideal_for": "Couples, business travelers, special occasions",
+        "capacity": "2-4 guests"
+      },
+      "guest_rooms": {
+        "types": {
+          "garden_rooms": {
+            "description": "Charming rooms with pastel Bermudian décor overlooking landscaped gardens",
+            "features": [
+              "Garden views",
+              "Pastel Bermudian décor",
+              "Peaceful setting",
+              "Traditional furnishings"
+            ]
+          },
+          "ocean_view_rooms": {
+            "description": "Rooms with private balconies offering sweeping Atlantic Ocean views",
+            "features": [
+              "Private balconies",
+              "Sweeping Atlantic views",
+              "Premium location",
+              "Ocean breezes"
+            ]
+          },
+          "beachfront_rooms": {
+            "description": "Rooms with direct access to beach pathways and immediate beach proximity",
+            "features": [
+              "Direct beach access",
+              "Beach pathway connections",
+              "Prime beachfront location",
+              "Immediate ocean access"
+            ]
+          }
+        },
+        "ideal_for": "Couples, solo travelers, shorter stays",
+        "capacity": "1-2 guests"
+      }
+    },
+    "policies": {
+      "check_in": "3:00 PM",
+      "check_out": "11:00 AM", 
+      "deposit": "Required at time of booking",
+      "cancellation": "Policies vary by season - contact reservations for details",
+      "children": "Children welcome",
+      "pets": "No pets allowed",
+      "smoking": "Non-smoking property"
+    },
+    "amenities": {
+      "all_accommodations": [
+        "Daily housekeeping service",
+        "Premium linens and towels", 
+        "Complimentary WiFi",
+        "Air conditioning",
+        "In-room safe",
+        "Mini-refrigerator",
+        "Coffee/tea facilities",
+        "Iron and ironing board",
+        "Hair dryer",
+        "Luxury toiletries"
+      ],
+      "cottage_specific": [
+        "Full kitchen with dishwasher",
+        "Washer and dryer",
+        "Multiple televisions",
+        "Dining area",
+        "Living room with seating",
+        "Private outdoor space"
+      ]
+    },
+    "booking_tips": [
+      "Book early for peak season (April-October)",
+      "Ocean view rooms fill quickly",
+      "Cottages perfect for longer stays", 
+      "Consider garden rooms for peaceful retreat",
+      "Suites offer best of both worlds"
+    ]
+  }
+}

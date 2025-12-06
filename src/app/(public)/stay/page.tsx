@@ -11,7 +11,7 @@ const roomTypes = [
     description: "Spacious suites with panoramic ocean views and private balconies",
     occupancy: 4,
     amenities: ["Ocean View", "Private Balcony", "King Bed", "Living Area"],
-    image: "https://images.unsplash.com/photo-1562790351-d273a961e0e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "/images/beachfront-aerial.jpg"
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const roomTypes = [
     description: "Intimate rooms overlooking our beautifully manicured gardens",
     occupancy: 2,
     amenities: ["Garden View", "Queen Bed", "Marble Bathroom", "Mini Bar"],
-    image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "/images/club-buildings.jpg"
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const roomTypes = [
     description: "Private cottages just steps from our pristine beach",
     occupancy: 6,
     amenities: ["Beachfront", "Full Kitchen", "2 Bedrooms", "Private Deck"],
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "/images/beach-umbrellas.jpg"
   }
 ];
 
@@ -45,7 +45,7 @@ export default function StayPage() {
           text: "Take Virtual Tour",
           href: "/stay/tour"
         }}
-        backgroundImage="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+        backgroundImage="/images/pool-area.jpg"
       />
 
       {/* Room Types */}

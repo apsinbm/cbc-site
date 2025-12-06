@@ -1,0 +1,182 @@
+{
+  "faqs": {
+    "accommodations": [
+      {
+        "question": "What time is check-in and check-out?",
+        "answer": "Check-in is at 3:00 PM and check-out is at 11:00 AM. Early check-in or late check-out may be available upon request and subject to availability."
+      },
+      {
+        "question": "Are pets allowed at CBC?",
+        "answer": "No, pets are not allowed at Coral Beach & Tennis Club to maintain the comfort and safety of all guests."
+      },
+      {
+        "question": "Do you offer babysitting services?",
+        "answer": "Yes, professional babysitting services are available and can be arranged through our concierge desk. Advance booking is recommended."
+      },
+      {
+        "question": "Is there WiFi available?",
+        "answer": "Yes, complimentary high-speed WiFi is available throughout the property including all accommodations, dining venues, and common areas."
+      },
+      {
+        "question": "What is included with my accommodation?",
+        "answer": "All accommodations include daily housekeeping, premium linens, complimentary WiFi, air conditioning, mini-refrigerator, coffee/tea facilities, and luxury toiletries."
+      }
+    ],
+    
+    "dining": [
+      {
+        "question": "Do I need reservations for dining?",
+        "answer": "Reservations are recommended for all dining venues, especially during peak season. You can make reservations through the concierge or by calling the restaurant directly."
+      },
+      {
+        "question": "What are the dress codes for dining venues?",
+        "answer": "Dress codes vary by venue: Main Dining Room requires smart casual to elegant attire, Beach Terrace is casual, Members' Bar is smart casual, and Beach Bar is resort casual."
+      },
+      {
+        "question": "Can you accommodate dietary restrictions?",
+        "answer": "Yes, our chefs can accommodate most dietary restrictions including vegetarian, vegan, gluten-free, and specific allergies. Please inform us when making reservations."
+      },
+      {
+        "question": "Is room service available?",
+        "answer": "Yes, room service is available for accommodation guests. Menus and hours vary by season - contact the front desk for current information."
+      }
+    ],
+    
+    "facilities": [
+      {
+        "question": "Is there a gym or fitness center?",
+        "answer": "Yes, our modern fitness center is open daily from 6:00 AM to 10:00 PM and features cardio equipment, weights, and offers yoga classes."
+      },
+      {
+        "question": "Can I reserve tennis courts?",
+        "answer": "Yes, tennis court reservations can be made through the concierge desk or online through our member portal. Professional instruction is also available."
+      },
+      {
+        "question": "What water sports equipment is available?",
+        "answer": "We provide complimentary snorkel gear, paddle boards, kayaks, and beach equipment. All equipment is included with your stay."
+      },
+      {
+        "question": "Do you have a spa?",
+        "answer": "Yes, we offer spa services by appointment including massages, facials, body treatments, and wellness programs. Advance booking is recommended."
+      },
+      {
+        "question": "Is there a business center?",
+        "answer": "Yes, our business center offers computer access, printing, scanning, fax services, and meeting facilities for business travelers."
+      }
+    ],
+    
+    "location_transport": [
+      {
+        "question": "How do I get to CBC from the airport?",
+        "answer": "We can arrange airport transfers for your convenience. Taxis are also available but we recommend pre-arranging transportation through our concierge."
+      },
+      {
+        "question": "Can I rent a car in Bermuda?",
+        "answer": "No, private car rentals are not available to tourists in Bermuda. Transportation options include taxis, scooters, public buses, ferries, and bicycles."
+      },
+      {
+        "question": "What is the best way to get around Bermuda?",
+        "answer": "For maximum flexibility, scooter rentals are popular. Taxis are convenient but expensive. Public buses and ferries are economical and scenic options."
+      },
+      {
+        "question": "Is CBC close to Hamilton or St. George's?",
+        "answer": "CBC is located in Paget Parish on the South Shore. Hamilton is about 10 minutes by taxi, while St. George's is approximately 30 minutes away."
+      }
+    ],
+    
+    "activities": [
+      {
+        "question": "What activities are available for children?",
+        "answer": "We offer seasonal kids' clubs, family beach activities, junior sports instruction, nature programs, and arts & crafts. Age-appropriate activities are planned throughout the year."
+      },
+      {
+        "question": "Can you arrange island tours?",
+        "answer": "Yes, our concierge can arrange various island tours including historical sites, nature tours, shopping excursions, and cultural experiences."
+      },
+      {
+        "question": "What evening entertainment is available?",
+        "answer": "Evening activities include cocktail hours, live music nights, wine tastings, cultural lectures, and seasonal themed events in our various venues."
+      },
+      {
+        "question": "Are there golf courses nearby?",
+        "answer": "Yes, Bermuda has several championship golf courses. Our concierge can arrange tee times and transportation to courses including Mid Ocean Club and Port Royal Golf Course."
+      }
+    ],
+    
+    "membership": [
+      {
+        "question": "Can non-members stay at CBC?",
+        "answer": "Yes, non-members may stay as guests with member approval. Contact our reservations team for availability and booking procedures."
+      },
+      {
+        "question": "How can I become a member?",
+        "answer": "Membership is by invitation only. Interested parties should contact our membership office for information about the application process and requirements."
+      },
+      {
+        "question": "Do I have access to reciprocal clubs?",
+        "answer": "Yes, CBC members have access to a global network of reciprocal clubs. A letter of introduction is required and can be arranged through our concierge."
+      }
+    ],
+    
+    "practical": [
+      {
+        "question": "What currency is used in Bermuda?",
+        "answer": "Bermuda uses the Bermuda Dollar (BMD), which is pegged 1:1 with the US Dollar. US currency is widely accepted throughout the island."
+      },
+      {
+        "question": "What should I pack for Bermuda?",
+        "answer": "Pack light, casual clothing, swimwear, sun protection, comfortable walking shoes, and smart casual attire for dining. Bermuda shorts are traditional formal wear for men."
+      },
+      {
+        "question": "Is tipping expected?",
+        "answer": "Yes, tipping is customary in Bermuda. 15-20% is standard for restaurants and taxis. Housekeeping and other service staff also appreciate gratuities."
+      },
+      {
+        "question": "What is the weather like year-round?",
+        "answer": "Bermuda enjoys a subtropical climate. Summer (June-September) is warm and humid (75-85°F), while winter (December-February) is cooler (60-70°F) but still pleasant."
+      },
+      {
+        "question": "Do I need any special documents to visit Bermuda?",
+        "answer": "US and Canadian citizens need a valid passport. Other nationalities should check visa requirements. No special vaccinations are required."
+      }
+    ],
+    
+    "events_weddings": [
+      {
+        "question": "Can CBC host my wedding?",
+        "answer": "Yes, CBC offers beautiful wedding venues and comprehensive wedding services. Contact our events team to discuss your special day and available packages."
+      },
+      {
+        "question": "What is the capacity for events?",
+        "answer": "Event capacity varies by venue, from intimate gatherings of 10 to large celebrations of 200+ guests. We can accommodate various event sizes and styles."
+      },
+      {
+        "question": "Do you provide wedding planning services?",
+        "answer": "Yes, we offer professional wedding coordination services including timeline management, vendor coordination, and day-of wedding management."
+      },
+      {
+        "question": "Are outdoor venues available year-round?",
+        "answer": "Outdoor venues are available year-round, with indoor backup options for inclement weather. Spring through fall offers the most reliable outdoor weather."
+      }
+    ],
+    
+    "policies": [
+      {
+        "question": "What is your cancellation policy?",
+        "answer": "Cancellation policies vary by season and length of stay. Please refer to your booking confirmation or contact reservations for specific terms."
+      },
+      {
+        "question": "Is smoking allowed on the property?",
+        "answer": "CBC is a non-smoking property. Designated outdoor smoking areas are available for guests who smoke."
+      },
+      {
+        "question": "What happens if there's bad weather?",
+        "answer": "Indoor alternatives are available for most activities. Our team will work with you to adjust plans and ensure you have an enjoyable experience regardless of weather."
+      },
+      {
+        "question": "Is there a minimum age for certain facilities?",
+        "answer": "Most facilities welcome all ages, though some fitness equipment and spa services have age restrictions. Our kids' programs cater to various age groups."
+      }
+    ]
+  }
+}

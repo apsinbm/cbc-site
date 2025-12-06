@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { Menu, X, ChevronDown } from 'lucide-react'
@@ -82,16 +83,22 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="h-10 w-10 rounded-full bg-brand-coral"></div>
-            <div className="font-serif text-xl font-semibold text-brand-ink">
-              <span className="cbc-gradient">CBC</span>
-            </div>
-          </Link>
+          {/* Logo and Navigation */}
+          <div className="flex items-center space-x-8">
+            {/* Logo */}
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/images/Bird transparent black.png"
+                alt="Coral Beach & Tennis Club"
+                width={50}
+                height={50}
+                className="h-10 w-auto"
+                priority
+              />
+            </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
+            {/* Desktop Navigation */}
+            <nav className="hidden lg:flex items-center space-x-8">
             {navigation.map((item) => (
               <div
                 key={item.label}
@@ -123,13 +130,14 @@ export function Header() {
               </div>
             ))}
           </nav>
+          </div>
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center space-x-4">
             <Button variant="ghost" asChild>
               <Link href="/login">Member Login</Link>
             </Button>
-            <Button asChild className="bg-brand-coral hover:bg-brand-coral/90">
+            <Button asChild className="bg-brand-blue-dark hover:bg-brand-blue-dark/90">
               <Link href="/about/contact">Contact Us</Link>
             </Button>
           </div>
@@ -180,7 +188,7 @@ export function Header() {
                     Member Login
                   </Link>
                 </Button>
-                <Button className="w-full bg-brand-coral hover:bg-brand-coral/90" asChild>
+                <Button className="w-full bg-brand-blue-dark hover:bg-brand-blue-dark/90" asChild>
                   <Link href="/about/contact" onClick={() => setIsMenuOpen(false)}>
                     Contact Us
                   </Link>

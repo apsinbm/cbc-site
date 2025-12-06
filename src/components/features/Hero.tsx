@@ -28,19 +28,19 @@ export function Hero({
   className = ''
 }: HeroProps) {
   return (
-    <section 
-      className={`relative min-h-[80vh] flex items-center justify-center ${className}`}
+    <section
+      className={`relative min-h-[80vh] flex items-center justify-center ${backgroundImage ? '' : 'bg-brand-sand'} ${className}`}
       style={backgroundImage ? {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${backgroundImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundAttachment: 'fixed'
+        backgroundRepeat: 'no-repeat'
       } : {}}
     >
       <div className="container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           {subtitle && (
-            <p className="text-lg md:text-xl text-brand-coral font-medium mb-4">
+            <p className="text-lg md:text-xl text-white/90 font-medium mb-4 tracking-wide">
               {subtitle}
             </p>
           )}
@@ -60,7 +60,7 @@ export function Hero({
               {primaryCta && (
                 <Button 
                   size="lg" 
-                  className="bg-brand-coral hover:bg-brand-coral/90 text-white px-8"
+                  className="bg-brand-blue-dark hover:bg-brand-blue-dark/90 text-white px-8"
                   asChild
                 >
                   <Link href={primaryCta.href}>{primaryCta.text}</Link>
@@ -71,7 +71,7 @@ export function Hero({
                 <Button 
                   size="lg" 
                   variant="outline" 
-                  className="border-white text-white hover:bg-white hover:text-brand-ink px-8"
+                  className="border-white bg-transparent text-white hover:bg-white hover:text-brand-ink px-8 font-medium"
                   asChild
                 >
                   <Link href={secondaryCta.href}>{secondaryCta.text}</Link>
@@ -82,12 +82,6 @@ export function Hero({
         </div>
       </div>
       
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white rounded-full mt-2"></div>
-        </div>
-      </div>
     </section>
   )
 }

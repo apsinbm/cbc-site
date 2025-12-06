@@ -45,16 +45,27 @@
 }
 
 :root {
-  /* CBC Brand Colors */
-  --brand-coral: #ff7b7b;
-  --brand-sea: #4a9eff;
-  --brand-sand: #f5f1eb;
-  --brand-ink: #2c3e50;
-  --brand-surface: #fefefe;
+  /* CBC Brand Colors - Soft Island Pastels */
+  --brand-blue: #B8D4E8;     /* Soft pastel blue */
+  --brand-blue-dark: #7FB3D3; /* Darker blue for buttons */
+  --brand-pink: #F5C5D9;     /* Soft pastel pink */
+  --brand-green: #C8E6C9;    /* Soft pastel green */
+  --brand-green-dark: #6B8E5A; /* Tennis court clay green for footer */
+  --brand-sand: #f5f1eb;     /* Keep existing soft sand */
+  --brand-ink: #6B7280;      /* Softer gray text */
+  --brand-surface: #fefefe;  /* Keep pure white */
   
-  /* Brand gradients */
-  --gradient-coral-sea: linear-gradient(135deg, var(--brand-coral), var(--brand-sea));
+  /* Legacy aliases for backward compatibility */
+  --brand-coral: var(--brand-pink);
+  --brand-sea: var(--brand-blue);
+  
+  /* Brand gradients - Soft pastels */
+  --gradient-pink-blue: linear-gradient(135deg, var(--brand-pink), var(--brand-blue));
+  --gradient-blue-green: linear-gradient(135deg, var(--brand-blue), var(--brand-green));
   --gradient-sand-surface: linear-gradient(135deg, var(--brand-sand), var(--brand-surface));
+  
+  /* Update main gradient alias */
+  --gradient-coral-sea: var(--gradient-pink-blue);
   
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -165,15 +176,29 @@
     background-clip: text;
   }
   
-  .brand-coral { color: var(--brand-coral); }
-  .brand-sea { color: var(--brand-sea); }
+  /* New pastel color classes */
+  .brand-blue { color: var(--brand-blue); }
+  .brand-pink { color: var(--brand-pink); }
+  .brand-green { color: var(--brand-green); }
   .brand-sand { color: var(--brand-sand); }
   .brand-ink { color: var(--brand-ink); }
   .brand-surface { color: var(--brand-surface); }
   
-  .bg-brand-coral { background-color: var(--brand-coral); }
-  .bg-brand-sea { background-color: var(--brand-sea); }
+  /* Legacy aliases */
+  .brand-coral { color: var(--brand-coral); }
+  .brand-sea { color: var(--brand-sea); }
+  
+  /* New pastel background classes */
+  .bg-brand-blue { background-color: var(--brand-blue); }
+  .bg-brand-blue-dark { background-color: var(--brand-blue-dark); }
+  .bg-brand-pink { background-color: var(--brand-pink); }
+  .bg-brand-green { background-color: var(--brand-green); }
+  .bg-brand-green-dark { background-color: var(--brand-green-dark); }
   .bg-brand-sand { background-color: var(--brand-sand); }
   .bg-brand-ink { background-color: var(--brand-ink); }
   .bg-brand-surface { background-color: var(--brand-surface); }
+  
+  /* Legacy aliases */
+  .bg-brand-coral { background-color: var(--brand-coral); }
+  .bg-brand-sea { background-color: var(--brand-sea); }
 }
