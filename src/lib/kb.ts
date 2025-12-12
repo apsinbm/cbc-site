@@ -144,7 +144,7 @@ export async function loadFAQs(): Promise<FAQ[]> {
             })))
           } else if (parsed.faqs && Array.isArray(parsed.faqs)) {
             // Object with faqs array
-            faqs.push(...parsed.faqs.map((faq: unknown, index: number) => ({
+            faqs.push(...parsed.faqs.map((faq: any, index: number) => ({
               id: `${item.id}-${index}`,
               question: faq.question || faq.q || '',
               answer: faq.answer || faq.a || '',
