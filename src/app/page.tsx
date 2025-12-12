@@ -108,7 +108,7 @@ export default function Home() {
                 <div className="w-12 h-12 bg-brand-blue rounded-lg flex items-center justify-center mb-4">
                   <Calendar className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle>What's On</CardTitle>
+                <CardTitle>What&apos;s On</CardTitle>
                 <CardDescription>
                   Stay updated with our exciting events, activities, and special occasions happening at the club.
                 </CardDescription>

@@ -186,7 +186,7 @@ export default function WhatsOnPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-4">View Events Your Way</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Choose how you'd like to browse our events and activities.
+              Choose how you&apos;d like to browse our events and activities.
             </p>
           </div>
 
@@ -194,7 +194,7 @@ export default function WhatsOnPage() {
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardHeader>
                 <CardTitle>Today</CardTitle>
-                <CardDescription>See what's happening today</CardDescription>
+                <CardDescription>See what&apos;s happening today</CardDescription>
               </CardHeader>
               <CardContent>
                 <Button asChild variant="outline" className="w-full">

@@ -116,19 +116,19 @@ export async function getClinicsByType(type: string, preview = false) {
 }
 
 // Utility functions for filtering and sorting
-export function filterEventsByCategory(events: any[], category: string) {
+export function filterEventsByCategory(events: unknown[], category: string) {
   if (category === 'All' || !category) return events
   return events.filter(event => event.category === category)
 }
 
-export function filterEventsByDateRange(events: any[], startDate: Date, endDate: Date) {
+export function filterEventsByDateRange(events: unknown[], startDate: Date, endDate: Date) {
   return events.filter(event => {
     const eventDate = new Date(event.start)
     return eventDate >= startDate && eventDate <= endDate
   })
 }
 
-export function getEventsForToday(events: any[]) {
+export function getEventsForToday(events: unknown[]) {
   const today = new Date()
   today.setHours(0, 0, 0, 0)
   const tomorrow = new Date(today)
@@ -137,7 +137,7 @@ export function getEventsForToday(events: any[]) {
   return filterEventsByDateRange(events, today, tomorrow)
 }
 
-export function getEventsForWeek(events: any[]) {
+export function getEventsForWeek(events: unknown[]) {
   const today = new Date()
   today.setHours(0, 0, 0, 0)
   const nextWeek = new Date(today)
@@ -146,7 +146,7 @@ export function getEventsForWeek(events: any[]) {
   return filterEventsByDateRange(events, today, nextWeek)
 }
 
-export function getUpcomingEvents(events: any[], limit?: number) {
+export function getUpcomingEvents(events: unknown[], limit?: number) {
   const now = new Date()
   const upcoming = events.filter(event => new Date(event.start) > now)
   return limit ? upcoming.slice(0, limit) : upcoming

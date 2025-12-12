@@ -22,7 +22,7 @@ export function Footer() {
               />
             </div>
             <p className="text-sm text-white/80 mb-4">
-              Bermuda's premier private beach and tennis club, offering world-class amenities and hospitality since 1931.
+              Bermuda&apos;s premier private beach and tennis club, offering world-class amenities and hospitality since 1931.
             </p>
             <div className="flex space-x-4">
               <Button size="sm" variant="ghost" className="text-white hover:text-brand-pink" asChild>

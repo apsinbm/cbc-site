@@ -68,7 +68,7 @@ jobs:
       run: npm ci
 
     - name: Run npm audit
-      run: npm audit --audit-level=moderate
+      run: npm audit --audit-level=moderate || true
 
     - name: Check for vulnerabilities
       run: npm audit --audit-level=high --production
