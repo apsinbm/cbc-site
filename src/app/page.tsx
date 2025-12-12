@@ -12,7 +12,7 @@ export default function Home() {
       <Hero
         subtitle="Welcome to"
         title="Coral Beach & Tennis Club"
-        description="Bermuda's premier private beach and tennis club, offering world-class amenities and hospitality since 1931."
+        description="Bermuda&apos;s premier private beach and tennis club, offering world-class amenities and hospitality since 1931."
         primaryCta={{
           text: "Explore Membership",
           href: "/membership"
@@ -127,7 +127,7 @@ export default function Home() {
                 </div>
                 <CardTitle>Our Location</CardTitle>
                 <CardDescription>
-                  Perfectly situated on Bermuda's stunning south shore, offering breathtaking ocean views and easy access.
+                  Perfectly situated on Bermuda&apos;s stunning south shore, offering breathtaking ocean views and easy access.
                 </CardDescription>
               </CardHeader>
               <CardContent>
