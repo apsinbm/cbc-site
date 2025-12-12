@@ -71,7 +71,7 @@ ${data.message}
 export async function POST(request: NextRequest) {
   try {
     // Get client IP for rate limiting
-    const ip = request.ip || request.headers.get('x-forwarded-for') || 'anonymous'
+    const ip = request.headers.get('x-forwarded-for') || 'anonymous'
 
     // Check rate limiting
     if (isRateLimited(ip)) {
@@ -128,7 +128,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         { 
           error: 'Validation failed', 
-          details: error.errors.map(e => ({ field: e.path.join('.'), message: e.message }))
+          details: error.issues.map(e => ({ field: e.path.join('.'), message: e.message }))
         },
         { status: 400 }
       )

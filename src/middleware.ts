@@ -49,7 +49,7 @@ export function middleware(request: NextRequest) {
 
   // Rate limiting for API routes
   if (request.nextUrl.pathname.startsWith('/api/')) {
-    const ip = request.ip || request.headers.get('x-forwarded-for') || 'anonymous'
+    const ip = request.headers.get('x-forwarded-for') || 'anonymous'
     const userAgent = request.headers.get('user-agent') || 'unknown'
     
     // Add rate limiting headers (implementation would require external service like Redis)
@@ -87,7 +87,7 @@ export function middleware(request: NextRequest) {
   const isSuspicious = suspiciousPatterns.some(pattern => pattern.test(pathname))
 
   if (isSuspicious) {
-    console.warn(`Blocked suspicious request: ${request.method} ${pathname} from ${request.ip}`)
+    console.warn(`Blocked suspicious request: ${request.method} ${pathname} from ${request.headers.get('x-forwarded-for') || 'unknown'}`)
     return new NextResponse('Forbidden', { status: 403 })
   }
 

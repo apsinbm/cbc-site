@@ -187,7 +187,7 @@ function extractQAFromMarkdown(content: string): { question: string; answer: str
   const qaPairs: { question: string; answer: string }[] = []
   
   // Look for patterns like "Q:" or "Question:" followed by "A:" or "Answer:"
-  const qaPattern = /(?:Q:|Question:)\s*(.*?)\n(?:A:|Answer:)\s*(.*?)(?=\n(?:Q:|Question:)|$)/gis
+  const qaPattern = /(?:Q:|Question:)\s*(.*?)\n(?:A:|Answer:)\s*(.*?)(?=\n(?:Q:|Question:)|$)/gi
   let match
   
   while ((match = qaPattern.exec(content)) !== null) {
@@ -199,7 +199,7 @@ function extractQAFromMarkdown(content: string): { question: string; answer: str
   
   // Also look for heading-based Q&A
   if (qaPairs.length === 0) {
-    const headingPattern = /^#+\s*(.*\?)\s*\n(.*?)(?=\n#+|\n\n|$)/gms
+    const headingPattern = /^#+\s*(.*\?)\s*\n(.*?)(?=\n#+|\n\n|$)/gm
     while ((match = headingPattern.exec(content)) !== null) {
       qaPairs.push({
         question: match[1].trim(),
